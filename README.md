@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/YoeriVD/angular-kdg.svg?branch=master)](https://travis-ci.org/YoeriVD/angular-kdg)
+
 angular-kdg
 ===========
 
