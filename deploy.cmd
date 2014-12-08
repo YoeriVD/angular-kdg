@@ -85,6 +85,8 @@ goto :EOF
 :: Deployment
 :: ----------
 
+:Deployment
+
 echo Handling node.js grunt deployment.
 
 # 1. Select node version
