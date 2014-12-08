@@ -1,0 +1,268 @@
+@font-face {
+  font-family: Nexa;
+  src: url(./lib/Nexa/NexaLight.otf);
+}
+
+@font-face {
+  font-family: Nexa;
+  font-weight: bold;
+  src: url(./lib/Nexa/NexaBold.otf);
+}
+
+body,html {
+  color:#444;
+  font-family:'Open Sans';
+  font-size:32px;
+}
+
+body {
+  box-shadow:inset 0 0 50px #999; 
+  background:url(./theme/cloud.png) no-repeat 90% -140px,
+             url(./theme/cloud.png) no-repeat 110% -120px;
+}
+
+em {
+  font-style:normal;
+}
+
+p {
+  font-size:40px;
+}
+
+.ace_content {
+  padding:20px!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:'Nexa';
+  margin:0 0 15px;
+  padding:0;
+  color:#205C9B;
+}
+
+h1 {
+  font-size:2.5rem;
+  font-weight:bold;
+}
+
+h2 {
+  color:#777;
+  font-size:2rem;
+}
+
+h2 strong {
+  color:#333;
+}
+
+slide-content {
+  text-align:left;
+}
+
+squares {
+  display:flex;
+  position:absolute;
+  flex-flow: row wrap;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+squares > div {
+  min-width:10%;
+  max-width:10%;
+  min-height:10%;
+  max-height:10%;
+}
+
+.title-slide {
+  background:#555;
+}
+
+.title-slide * {
+  color:white;
+}
+
+.ace_editor {
+  min-height: 300px!important;
+  font-size: 0.8rem!important;
+} 
+
+em, .one { color:rgb(183, 49, 41); }
+.two { color:#222; }
+.three { color:#205C9B; }
+.four { color:purple; }
+
+.tiny-code {
+  font-size: 0.7rem!important;
+}
+
+.full-height-code {
+  min-height: 400px!important;
+}
+
+.medium-height-code {
+  min-height: 300px!important;
+}
+
+.small-height-code {
+  min-height: 200px!important;
+}
+
+.feature-matrix {
+  width:100%;
+}
+
+.feature-matrix td {
+  padding:8px 12px;
+  background:#eee;
+  border:1px solid #ddd;
+}
+
+.center-slide {
+  display:table;
+  height:100%;
+  position:relative;
+}
+
+.center-slide slide-content {
+  position:relative;
+  display:table-cell;
+  padding:0;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  height:100%;
+  width:100%;
+  vertical-align:middle;
+  text-align:center;
+}
+
+.dark {
+  color:white;
+  background:#333;
+}
+
+.circle-image {
+  border-radius:350px;
+  overflow:hidden;
+  width:300px;
+  height:300px;
+  margin:0 auto;
+  border:15px solid red;
+}
+
+.circle-image img   {
+  margin-top:-25px;
+  margin-left:-25px;
+}
+
+.main-slide {
+  background-color:#ddd;
+}
+
+.main-slide.mountains {
+  background-image:url(./theme/mountains.png);
+  background-repeat:no-repeat;
+  background-position:120% 130%;
+  background-size:auto 470px;
+}
+
+.main-slide h1 {
+  border-bottom:5px dashed #999;
+  margin-bottom:40px;
+  padding-bottom:40px;
+  color:#555;
+}
+
+.ngeurope {
+  margin-top:30px;
+  font-size:1.5rem;
+}
+.ngeurope img {
+  vertical-align:middle;
+}
+
+.dark-stage { background:black; color:white; }
+
+.trio-col, .five-col, .dual-col {
+  display:flex;
+  margin:0 auto;
+}
+
+.trio-col > .col {
+  max-width:33%;
+  margin: auto;
+  padding:20px;
+}
+
+.trio-col > .col > img {
+  min-width:100%;
+  max-height:300px;
+  box-shadow:0 0 10px #aaa;
+  border-radius:40px;
+  background:#eee;
+}
+
+.five-col > .col {
+  max-width:18%;
+  min-width:18%;
+  text-align:center;
+  max-height:200px;
+  min-height:200px;
+  line-height:200px;
+  background:#ddd;
+  border-radius:40px;
+  margin: auto;
+  font-size:100px;
+  margin-top:150px;
+}
+
+.dual-col > .col {
+  min-width:50%;
+  max-width:50%;
+}
+
+.dual-col > .col + .col {
+  text-align:center;
+}
+
+.dual-col > .col + .col img {
+  max-height:500px;
+  margin:0 auto;
+  margin-top:-50px;
+}
+
+.matias-slide {
+  background-image:url(./theme/hills2.png), url(./theme/hills2.png),  url(./theme/hills2.png);
+  background-repeat:no-repeat;
+  background-position:left 115%, right 115%, center 110%;
+  background-size:600px auto, 600px auto, 600px auto;
+}
+
+.snapshot-link {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%; 
+}
+
+.snapshot-link:after {
+  content:"";
+  z-index:-1;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:rgba(255,255,255,0.8);
+  border:10px solid #ccc;
+}
+
+.snapshot-slide {
+  background:#ddd;
+}
+
+.snapshot-slide slide-content {
+  line-height:500px;
+  text-align:center;
+}

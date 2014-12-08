@@ -1,0 +1,33 @@
+slide.ng-hide-animate {
+  transition:0.3s linear all;
+}
+
+slide.reverse.ng-hide-remove {
+  -webkit-animation: bounceInRight 1s;
+  animation: bounceInRight 1s;
+}
+
+slide.ng-hide-remove {
+  -webkit-animation: bounceInLeft 1s;
+  animation: bounceInLeft 1s;
+}
+
+slide.ng-hide-add {
+  -webkit-animation: bounceOutLeft 1s;
+  animation: bounceOutLeft 1s;
+}
+
+slide.reverse.ng-hide-add {
+  -webkit-animation: bounceOutRight 1s;
+  animation: bounceOutRight 1s;
+}
+
+[fragment].ng-hide-remove {
+  -webkit-animation: flipInX 1s;
+  animation: flipInX 1s;
+}
+
+[fragment].ng-hide-add {
+  -webkit-animation: fadeOut 1s;
+  animation: fadeOut 1s;
+}
