@@ -5474,7 +5474,6 @@ body {
     font-size: 60px; }
   #slides .yoeri p {
     display: block;
-    margin: 0 auto;
     margin-top: 25px;
     width: 80%;
     padding: 40px;
@@ -5482,7 +5481,15 @@ body {
     text-align: center; }
   #slides .yoeri ul {
     width: 80%;
-    margin: 0 auto; }
+    padding-left: 0; }
     #slides .yoeri ul li {
-      height: 40px;
-      width: 40px; }
+      margin-left: 0;
+      margin-top: 10px;
+      margin-right: 10px;
+      float: left;
+      display: block;
+      height: 220px;
+      width: 220px;
+      background-color: #c54739; }
+      #slides .yoeri ul li:first-child {
+        width: 440px; }

@@ -35,7 +35,6 @@ body {
   .yoeri {
     p{
       display: block;
-      margin: 0 auto;
       margin-top: 25px;
       width: 80%;
       padding: 40px;
@@ -44,10 +43,19 @@ body {
     }
     ul{
       width: 80%;
-      margin: 0 auto;
+      padding-left: 0;
       li{
-        height: 40px;
-        width: 40px;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-right: 10px;
+        float: left;
+        display:block;
+        height: 220px;
+        width: 220px;
+        background-color: #c54739;
+        &:first-child{
+          width: 440px;
+        }
       }
     }
   }
