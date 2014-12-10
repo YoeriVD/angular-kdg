@@ -5455,7 +5455,34 @@ body {
   font-family: 'Montserrat';
   background-color: #0080c6; }
 
-ng-slides slide .main {
-  text-align: center; }
-  ng-slides slide .main h1 {
-    padding: 10px; }
+#slides {
+  width: 70%;
+  color: #ffffff;
+  font-size: 50px; }
+  #slides header {
+    margin-bottom: 10px;
+    border-bottom: 10px dashed #ffffff; }
+  #slides ul {
+    list-style: none; }
+  #slides h1 {
+    font-size: 80px; }
+  #slides h2 {
+    font-size: 60px; }
+  #slides .main h1 {
+    font-size: 100px; }
+  #slides .main h2 {
+    font-size: 60px; }
+  #slides .yoeri p {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 80%;
+    padding: 40px;
+    background-color: #00b3ee;
+    text-align: center; }
+  #slides .yoeri ul {
+    width: 80%;
+    margin: 0 auto; }
+    #slides .yoeri ul li {
+      height: 40px;
+      width: 40px; }
