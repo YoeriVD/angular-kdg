@@ -5507,6 +5507,9 @@ body {
       height: 140px;
       min-width: 300px;
       background-color: #c54739; }
+      #slides .yoeri ul li:first-child {
+        color: #23315e;
+        background-color: #c5d831; }
   #slides .javascript-slide div {
     overflow: hidden;
     width: 500px;
