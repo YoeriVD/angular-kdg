@@ -5517,7 +5517,7 @@ body {
     #slides .javascript-slide div iframe {
       margin-left: -190px;
       margin-top: -20px; }
-  #slides:last-child p {
+  #slides slide:last-child p {
     margin-top: 20%;
     font-size: 90px;
     font-style: italic;
