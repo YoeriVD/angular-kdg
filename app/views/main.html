@@ -15,7 +15,7 @@
       <header>
         <h1>Proudly presented by</h1>
       </header>
-      <p>Yoeri Van Damme</p>
+      <p>Yoeri Van Damme - Info Support</p>
       <ul>
         <li>problem solver</li>
         <li>trainer</li>
@@ -31,11 +31,11 @@
       <ul>
         <li>Javascript</li>
         <li>AngularJS</li>
+        <li>Grunt, Yeoman & Bower</li>
         <li>controllers</li>
         <li>filters</li>
         <li>Karma - tests</li>
         <li>directives</li>
-        <li fragment="">services</li>
         <li fragment="">Angular 2.0</li>
       </ul>
     </slide-content>
@@ -88,6 +88,7 @@
         <li fragment="">large applications</li>
         <li fragment="">MVW architecture</li>
         <li fragment="">Data binding</li>
+        <li fragment="">Dependency injection</li>
         <li fragment="">Extend HTML</li>
         <li fragment="">X-Browser</li>
         <li fragment="">Testable</li>
@@ -254,6 +255,7 @@ npm install -g bower
         .filter()
       </header>
       <ul>
+        <li fragment="">a lot of defaults</li>
         <li fragment="">formatting data</li>
         <li fragment="">i18n \O/</li>
         <li fragment="">keep 'em light!</li>
@@ -285,12 +287,65 @@ npm install -g bower
 
   <slide>
     <slide-content>
+      <header>Karma is easy and readable</header>
+
+      <ul>
+        <li>R-spec (Ruby anyone?)</li>
+        <li>readable from left to right</li>
+      </ul>
+      <!-- HTML generated using hilite.me -->
+      <div fragment=""
+        style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre
+        style="margin: 0; line-height: 125%">  it(<span
+        style="color: #0000FF">&#39;should skip the first element&#39;</span>, <span
+        style="color: #000080; font-weight: bold">function</span>(){
+    <span style="color: #000080; font-weight: bold">var</span> theCollection = [<span
+          style="color: #0000FF">1</span>,<span style="color: #0000FF">2</span>,<span
+          style="color: #0000FF">3</span>,<span style="color: #0000FF">4</span>];
+    <span style="color: #000080; font-weight: bold">var</span> theExpectedCollection = [<span
+          style="color: #0000FF">2</span>,<span style="color: #0000FF">3</span>,<span style="color: #0000FF">4</span>];
+
+    expect(skipFilter(theCollection, <span style="color: #0000FF">1</span>)).toEqual(theExpectedCollection);
+  });
+</pre>
+      </div>
+    </slide-content>
+  </slide>
+
+  <slide>
+    <slide-content>
+      <header>Karma - importent functions</header>
+      <ul>
+        <li>describe("Some thing", ..</li>
+        <li>it("should do another thing", ..</li>
+        <li>expect(this).toBe(that)</li>
+      </ul>
+    </slide-content>
+  </slide>
+
+  <slide>
+    <slide-content>
       <header>.directive()</header>
 
       <ul>
-        <li>define object that describes directive</li>
+        <li>custom html component</li>
+        <li>define object that describes the directive (DDO)</li>
         <li>first syntax to be changed for 2.0</li>
         <li>~only thing that wasn't deleted</li>
+      </ul>
+    </slide-content>
+  </slide>
+  <slide>
+    <slide-content>
+      <header>Other interesting topics</header>
+      <ul>
+        <li>forms with angularjs</li>
+        <li>custom services</li>
+        <li>mocking</li>
+        <li>TypeScript & AtScript</li>
+        <li>ng-animate</li>
+        <li>AngularFire (3-way data binding)</li>
+        <li>Ionic framework (mobile apps)</li>
       </ul>
     </slide-content>
   </slide>
@@ -315,6 +370,21 @@ npm install -g bower
         <br/>
         <li>Angular from scratch: <a href="https://www.youtube.com/watch?v=Mk2WwSxK218">https://www.youtube.com/watch?v=Mk2WwSxK218</a>
         </li>
+      </ul>
+    </slide-content>
+  </slide>
+
+  <slide>
+    <slide-content>
+      <header>
+        Last but not least
+      </header>
+      <h1>Info Support</h1>
+      <ul>
+        <li>Consultancy</li>
+        <li>Educational Center</li>
+        <li>Internships in BI, .NET, Java</li>
+        <li>Also hiring :-) </li>
       </ul>
     </slide-content>
   </slide>
