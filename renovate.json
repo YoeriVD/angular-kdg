@@ -3,7 +3,9 @@
   "extends": [
     "config:base"
   ],
-  "packageRules" : {
-    "automerge": true
-  }
+  "packageRules" : [
+    {
+      "automerge": true
+    }
+  ]
 }
